@@ -1,0 +1,12 @@
+void setup(){
+  size(800,600,P3D);
+}
+
+void draw(){
+  background(0);
+  camera(320,mouseX,mouseY,height/2, width/2,0,0,0,1);
+  translate(width/2,height/2,-100);
+  stroke(255);
+  noFill();
+  box(200);
+}
